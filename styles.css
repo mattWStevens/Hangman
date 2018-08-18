@@ -1,0 +1,50 @@
+/*  styles.css
+    Matthew Stevens
+    February 3, 2018
+*/
+
+body { background-color: black;
+}
+
+#gamePic { margin-bottom: 0;
+           width: 750px;
+}
+
+h1 { color: white;
+     text-align: center;
+     font-size: 36px;
+     margin-bottom: 0;
+     margin-top: 25px;
+}
+
+h2 { color: white;
+     text-align: center;
+     font-size: 24px;
+}
+
+#wrongLetters { background-color: blue;
+                width: 350px;
+                margin-top: auto;
+}
+
+#userGuess { color: white;
+             text-align: center;
+             font-size: 18px;
+             font-family: Courier;
+}
+
+#userInput { width: 25px;
+}
+
+#correctWord { margin-top: 0;
+               color: white;
+               text-align: center;
+}
+
+#guesses { color: white;
+           text-align: center;
+}
+
+#length { color: white;
+          text-align: center;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--hangman.html
+    Matthew Stevens
+    February 3, 2018
+-->
+
+<html lang="en">
+<head>
+    <title>Hangman</title>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet">
+</head>
+    
+<body onload="loadPage()">
+    <!--header-->
+    <header>
+        <h1>Hangman</h1>
+    </header>
+    
+    <!--div containing game area-->
+    <div id="gameArea">
+        <!--main back image-->
+        <p style="text-align: center"><img src="Chalkboard/c0.gif" id="gamePic"></p>
+        
+        <!--correct word area-->
+        <h2 id="correctWord">Correct Word: </h2>
+        <p id="length"></p>
+        
+        <!--guessed letters area-->
+        <h2>Guesses: </h2>
+        
+        <p id="guesses"></p>
+        
+        <!--form for user guesses-->
+        <form id="userGuess">
+            <label for="userInput">Enter your guess here: </label>
+            <input type="text" id="userInput">
+            <input type="button" value="Submit" onclick="guess()">
+            <input type="button" value="Guess Word" onclick="guessWord()">
+        </form>
+    </div>
+    
+    <!--js file-->
+    <script src="hangman.js"></script>
+</body>
+</html>
